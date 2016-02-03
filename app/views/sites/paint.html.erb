@@ -1,0 +1,32 @@
+
+		<h1>MY PAINT</h1>
+		<div id="toolbar">
+			<div id="rad">
+				Taille du trait <span id="radval">10</span>
+				<div id="decrad" class="radcontrol">+</div>
+				<div id="incrad" class="radcontrol">-</div>
+			</div>
+			<div id="colors">
+				<span></span><br />
+				<div class="swatch active" id="black" data-color="#000000"></div>
+				<div class="swatch" id="white" data-color="#FFFFFF"></div>
+				<div class="swatch" id="red" data-color="#FF0000"></div>
+				<div class="swatch" id="orange" data-color="#FF4000"></div>
+				<div class="swatch" id="yellow" data-color="#FFFF00"></div>
+				<div class="swatch" id="green" data-color="#40FF00"></div>
+				<div class="swatch" id="blue" data-color="#01DFD7"></div>
+				<div class="swatch" id="purple" data-color="#7401DF"></div>
+				<div class="swatch" id="pink" data-color="#DF01A5"></div>
+			</div>
+			<div id="tools">
+				<span></span>
+				<div class="tool active_tool" id="pencil" data-choice="pencil" onclick="javascript:setChoice(this)"><%= image_tag ("pencil1.png") %></div>
+				<div class="tool" id="line" data-choice="line" onclick="javascript:setChoice(this)"><%= image_tag ("line1.png") %></div>
+				<div class="tool" id="rectangle" data-choice="rectangle" onclick="javascript:setChoice(this)"><%= image_tag ("rectangle1.png") %></div>
+				<div class="tool" id="oval" data-choice="oval" onclick="javascript:setChoice(this)"><%= image_tag ("oval1.png") %></div>
+			</div>
+		</div>
+		<canvas id="canvas">
+			Votre navigateur n'est pas compatible.
+		</canvas>
+		

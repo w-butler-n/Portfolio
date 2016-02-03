@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+	  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	  	
+		<title>MORGANS GROUP HOTEL</title>
+		<%= csrf_meta_tags %>
+		<style>
+		body
+				{
+				font-family: Helvetica;
+				font-size: 11px;
+				color: black;
+				margin: auto;
+				width: 955px;
+				}
+
+			h1
+				{
+				font-weight: normal;
+				font-size: 12px;
+				padding-top: 20px;	
+				padding-left: 17px;
+				}
+
+			h2
+				{
+				font-weight: normal;
+				width: 280px;
+				height: 25px;
+				color: white;
+				font-size: 23px;
+				text-align: center;
+				}
+
+			h3
+				{
+				width: 255px;
+				height: 20px;
+				color: black;
+				font-size: 18px;
+				margin-left: 10px;
+				margin-top: 10px;
+				margin-bottom: 5px;
+				padding-bottom: 5px;
+				border-bottom: 1px solid #000000;
+				}
+
+			h4
+				{
+				width: 150px;
+				height: 10px;
+				color: black;
+				font-size: 12px;
+				margin-top: 13px;
+				margin-bottom: 2px;
+				padding-bottom: 5px;
+				}
+
+			a
+				{
+				text-decoration:none;
+				color: #444444;
+				}
+
+			hr
+				{
+				float: left;
+				width: 285px;
+				height: 1px;
+				margin-left: 15px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				color: #DDDDDD;
+				background-color: #666666;
+				border: 0px;
+				}
+
+			/*______________________________________________________________*/
+
+
+			#header 
+				{
+				width: 955px;
+				height: 93px;
+				color: white;
+				background-color: black;
+				}
+
+			#header-menu
+				{
+				margin-right: 35px;
+				margin-top: 30px;
+				text-align: right;
+				}
+
+			#header a 
+				{
+				font-size: 11px;
+				color: white;
+				}
+
+			/*______________________________________________________________*/
+
+
+			#choice 
+				{
+				height: 380px;
+				background-color: #660033;
+				}
+
+			#choice2
+				{
+				float: left;
+				}
+
+			#nav li
+				{
+				color: black;
+				list-style: none;
+				text-decoration:none;
+				font-size: 14px;
+				height: 24px;
+				padding-top: 13px;
+				padding-bottom: 7px;
+				padding-left: 32px;
+				margin-bottom: 8px;		
+				}
+
+			#nav a
+				{
+				padding-right: 120px;
+				vertical-align: top;
+				color: inherit;
+				margin-bottom: 7px;
+				}
+
+			#nav
+				{
+				padding: 0px;
+				}
+
+			#nav li a:hover
+				{
+				vertical-align: top;
+				padding-top: 13px;
+				padding-bottom: 7px;
+				}
+
+			#nav li:hover
+				{
+				color: white;
+				background-color: black;
+				list-style-position: inside; 
+				list-style-image: url("pastille.jpg");
+				padding-top: 13px;
+				padding-bottom: 7px;
+				padding-left: 8px;
+				}
+
+			/*______________________________________________________________*/
+
+
+			#bloc1
+				{
+				float: left;
+				width: 280px;
+				height: 605px;
+				}
+
+			#desc
+				{
+				height: 305px;
+				background-color: #FFFFFF;
+				}
+
+			.change-color
+				{
+				font-weight: normal;
+				color: #660033;
+				}
+
+			.img2
+				{
+				float: left;
+				margin-top: 10px;
+				padding-left: 10px;
+				}
+
+			.change
+				{
+				color: #660033;
+				font-weight: bold;
+				}
+
+			.spitch
+				{
+				float: left;
+				margin-left: 5px;
+				margin-top: 6px;
+				width: 245px;
+				}
+
+			.button01
+				{
+				background-color: #660033;
+				font-size: 10px;
+				color: white;
+				margin-left: 190px;
+				padding-top: 3px;
+				padding-bottom: 3px;
+				padding-right: 5px;
+				padding-left: 5px;
+				}
+
+			#geo
+				{
+				width: 265px;
+				height: 280px;
+				border-top: 1px solid #CCCCCC;
+				}
+
+			#map
+				{
+				margin-left: 10px;
+				padding-top: 10px;
+				margin-bottom: 11px;
+				}
+
+			.button02
+				{
+				background-color: #660033;
+				font-size: 10px;
+				color: white;
+				margin-left: 168px;
+				padding-top: 3px;
+				padding-bottom: 3px;
+				padding-right: 5px;
+				padding-left: 5px;
+				}
+
+			/*______________________________________________________________*/
+
+
+			#bloc2
+				{
+				float: right;
+				width: 675px;
+				height: 275px;
+				}
+
+			#welcome
+				{
+				float: left;
+				margin-top: 10px;
+				width: 640px;
+				height: 260px;
+				background-color: #CCCCCC;
+				}
+
+			#img3
+				{
+				float: left;
+				padding-left: 15px;
+				padding-right: 15px;
+				padding-top: 18px;
+				}
+
+			#welcome h3
+				{
+				float: left;
+				margin-left: 0px;
+				margin-bottom: 0px;
+				}
+
+			#spitch-color
+				{
+				float: left;
+				color: #660033;
+				width: 250px;
+				height: 60px;
+				}
+
+			.spitch2
+				{
+				float: left;
+				width: 230px;
+				height: 80px;
+				}
+
+			.button03
+				{
+				float: right;
+				background-color: #660033;
+				font-size: 12px;
+				color: white;
+				margin-right: 15px;
+				padding-top: 4px;
+				padding-bottom: 4px;
+				padding-right: 5px;
+				padding-left: 5px;
+				}
+
+
+			#bloc3
+				{
+				width: 645px;
+				height: 605px;
+				}
+
+			#offredec
+				{
+				float: left;
+				margin-top: 13px;
+				width: 315px;
+				height: 315px;
+				background-color: #CCCCCC;
+				}
+
+			#offredec h3
+				{
+				width: 285px;
+				margin-left: 15px;
+				margin-bottom: 10px;
+				}
+
+			.img4
+				{
+			 	margin-left: 15px;
+			 	margin-top: 2px;
+				}
+
+			#offredec h4
+				{
+				float: right;
+				margin-right: 24px;
+				margin-top: 0px;
+				}
+
+			.details
+				{
+				float: right;
+				width: 150px;
+				margin-right: 25px;
+				margin-top: -70px;
+				}
+
+			.plus
+				{
+				float: right;
+				font-weight: bold;
+				color: #660033;
+				margin-right: 106px;
+				}
+
+			#button04
+				{
+				float: right;
+				background-color: #660033;
+				font-size: 12px;
+				color: white;
+				margin-right: 10px;
+				padding-top: 6px;
+				padding-bottom: 4px;
+				padding-right: 5px;
+				padding-left: 5px;
+				}
+
+			#offrespe
+				{
+				float: left;
+				margin-top: 12px;
+				margin-left: 10px;
+				width: 315px;
+				height: 315px;
+				background-color: #660033;
+				}
+
+			#offrespe h3
+				{
+				width: 285px;
+				margin-left: 15px;
+				margin-bottom: 0px;
+				}
+
+			#change-color2
+				{
+				color: white;
+				}
+
+			table
+				{
+				margin-top: 15px;
+				width: 285px;
+				padding-top: 15px;
+				margin-left: 15px;
+				border-collapse: collapse;
+				border-bottom: 1px solid #9a004d;
+				}
+
+			tr
+				{
+				color: white;
+				}
+			td
+				{
+				border-top: 1px solid #9a004d;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				}
+
+			.nuit, .prix
+				{
+				padding-left: 51px;
+				}
+
+
+			tr:hover
+				{
+				color: #9a004d;
+				}
+
+			/*______________________________________________________________*/
+
+			#footer 
+				{
+				float: right;
+				width: 955px;
+				height: 30px;
+				color: #444444;
+				background-color: black;
+				text-align: center;
+				margin-top: 20px;
+				padding-top: 15px;
+				}
+
+		</style>
+	</head>
+
+  	<body id="maquette1">
+		<%= yield %>
+	</body>
+</html>

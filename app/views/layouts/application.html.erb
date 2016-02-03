@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Portfolio</title>
+			
+  			<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,300italic,500,700">
+			<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+			<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+			<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>  			
+  			<%= csrf_meta_tags %>
+		</head>
+		<body id="appli">
+			<div class="header">
+				<div class="container">
+					<div class="row">
+						<div class="menu col-xs-8">
+							<ul>
+								<li><a href="/">Welcome</a></li>
+								<li><%= link_to "Portfolio", {controller: "pages", action: "portfolio"} %></li>
+								<li><a href="https://medium.com/@wbutlern">Blog</a></li>
+								<li><%= link_to "About", controller: "pages", action: "about" %></li>
+								<li><%= link_to "Contact", controller: "pages", action: "contact" %></li>
+							</ul>
+						</div> 
+						<div class="name col-xs-4">
+							<h1>Wissam Sameut</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<%= yield %>
+
+			<div class="footer">
+				<div class="container">
+					<ul class="social_media">
+						<li><a class="github" href="https://github.com/w-butler-n">github</a></li>
+						<li><a class="linkedin" href=" http://www.linkedin.com/pub/wissamsameut/54/852/91a">linkedin</a></li>
+						<li><a class="twitter" href="https://twitter.com/wbutlern">twitter</a></li>
+					</ul>
+					<p>&copy; 2015 Wissam Sameut</p>
+				</div>
+			</div>
+			<%= javascript_include_tag "jquery.min.js", 'data-turbolinks-track' => true %>
+			<%= javascript_include_tag "jquery.js", 'data-turbolinks-track' => true %>
+			<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+			
+		</body>
+</html>

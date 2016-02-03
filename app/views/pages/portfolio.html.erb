@@ -1,0 +1,121 @@
+<div class="main portfolio">
+	<div class="jumbotron slideshow">
+		<div id="owl-demo" class="owl-carousel owl-theme">
+			<div class="item">
+				<%= image_tag "stories_Rails.jpg" %>
+			</div>
+			<div class="item">
+				<%= image_tag "stories4_Rails.jpg" %>
+			</div>
+			<div class="item">
+				<%= image_tag "stories6_Rails.jpg" %>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+   		<div class="row">
+   			<a class="col-md-6 project" href="#">
+   				<div class="thumbnail-header"></div>
+   				<div class="thumbnail">
+   					<img alt="Project01" src="/assets/my-weblog.jpg" />
+   				</div>
+   				<h3>MY WEBLOG</h3>
+   					<p>C'est un blog comme on en trouve sur internet.
+                     Le projet offre diverses fonctionnalités :
+                     * Un panel d’administration pour les utilisateurs authentifiés,
+                     * Poster/éditer des billets depuis l’administration (avec images, lien etc ...),
+                     * Gérer un système de tags pour les billets,
+                     * Inclure des vidéos Youtube / Dailymotion,
+                     * Visualiser les billets sur le blog,
+                     * Poster / effacer (si autorisé) des commentaires,
+                     * Un formulaire de contact (qui envoi un email par exemple),
+                     * etc...</p>
+   			</a>
+   			<a class="col-md-6 project" href="#">
+               <div class="thumbnail-header"></div>
+               <div class="thumbnail">
+                  <img alt="Project03" src="/assets/my-cinema.jpg" />
+               </div>
+               <h3>MY CINEMA</h3>
+                  <p>C'est un site permettant de gérer un cinéma. 
+                     Ainsi, le site permet :
+                     * de rechercher des films par genre ou par distributeur (en plus de la recherche par nom). 
+                     * de voir les abonnements et les réductions possibles. 
+                     * d’ajouter ou modifier (suppression comprise) un abonnement à un client. 
+                     * d’afficher l’historique d’un client (les films qu’il a vu). 
+                     * d’éditer cet historique et de pouvoir rajouter des entrées.
+                     * d’ajouter un avis sur un film (avis qui sera ajouté à la table "historique-membre"). 
+                     * de rechercher les films par date de projection. ("Quels films passent ce soir ? !")</p>
+            </a>
+   		</div>
+   		<div class="row">
+   			<%= link_to map_path, :class =>"col-md-6 project", target: '_blank' do %>
+   				<div class="thumbnail-header"></div>
+   				<div class="thumbnail">
+   					<img alt="Project04" src="/assets/map.jpg" />
+   				</div>
+   				<h3>MY MAPS</h3>
+   					<p>Le projet consiste à intégrer une carte dans un format « 800px*600px » ainsi qu’un bouton pour passer en mode « fullscreen ». 
+                  Ily a un formulaire permettant de choisir un point de départ ainsi qu’un point d’arrivée. 
+                  Il est possible de renseigner le nom de la ville ou bien de donner sa position en coordonnées. 
+                  Il est également possible de cliquer sur un endroit de la « Map » pour sélectionner un point.</p>
+   			<% end %>
+            <%= link_to play_path, :class =>"col-md-6 project", target: '_blank' do %>
+               <div class="thumbnail-header"></div>
+               <div class="thumbnail">
+                  <img alt="Project05" src="/assets/2048.jpg" />
+               </div>
+               <h3>2048</h3>
+                  <p>Le jeu 2048 en utilisant exclusivement les technologies HTML5, CSS3, JavaScript et jQuery.
+                  Le projet comporte :
+                  * Une interface visuelle reprenant le principe du jeu original.
+                  * La possibilité de jouer avec les touches fléchées.
+                  * L’apparition de nouveaux carrés se faisant aléatoirement.</p>
+            <% end %>
+   		</div>
+   		<div class="row">
+   			<%= link_to paint_path, :class =>"col-md-6 project", target: '_blank' do %>
+   				<div class="thumbnail-header"></div>
+   				<div class="thumbnail">
+   					<img alt="Project06" src="/assets/my-paint.jpg" />
+   				</div>
+   				<h3>MY PAINT</h3>
+   					<p>Ce projet consiste à réaliser un "paint-like" en JavaScript à l’aide du composant HTML5 "canvas". 
+                  Comme tous les "logiciels" de dessin, le projet a, au minimum les outils indiqués ci-dessous :
+                  * Le "crayon" : ajoute un pixel quand on clique ou que l’on reste appuyé sur le bouton de la souris.
+                  * La ligne : premier click pour l’origine, deuxième pour la destination.
+                  * Le rectangle : premier click pour l’origine, deuxième pour la taille.
+                  * Le cercle : premier click pour le centre, deuxième pour le rayon.
+                  * La gestion des couleurs est également effective.</p>
+   			<% end %>
+            <%= link_to maquette1_path, :class =>"col-md-6 project", target: '_blank' do %>
+               <div class="thumbnail-header"></div>
+               <div class="thumbnail">
+                  <img alt="Project05" src="/assets/maquette1.jpg" />
+               </div>
+               <h3>MAQUETTE 1</h3>
+                  <p>En s'appuyant sur le visuel de la maquette fournie, il fallait intégrer une page en XHTML1.0 et CSS2 conforme au visuel, respectant les normes du W3C et optimisant au mieux le référencement.</p>
+            <% end %>
+   		</div>
+         <div class="row">
+            <%= link_to maquette2_path, :class =>"col-md-6 project", target: '_blank' do %>
+               <div class="thumbnail-header"></div>
+               <div class="thumbnail">
+                  <img alt="Project06" src="/assets/maquette2.jpg" />
+               </div>
+               <h3>MAQUETTE 2</h3>
+                  <p>En s'appuyant sur le visuel de la maquette fournie, il fallait intégrer une page en XHTML1.0 et CSS2 conforme au visuel, respectant les normes du W3C et optimisant au mieux le référencement.
+                  Il fallait également intégrer un player YouTube avec la vidéo de notre choix.</p>
+            <% end %>
+            <%= link_to maquette3_path, :class =>"col-md-6 project", target: '_blank' do %>
+               <div class="thumbnail-header"></div>
+               <div class="thumbnail">
+                  <img alt="Project05" src="/assets/maquette3.jpg" />
+               </div>
+               <h3>MAQUETTE 3</h3>
+                  <p>En s'appuyant sur le visuel de la maquette fournie, il fallait intégrer une page en HTML5 et CSS3 conforme au visuel, respectant les normes du W3C et optimisant au mieux le référencement.
+                  Il fallait respecter toutes les animations exigées.</p>
+            <% end %>
+         </div>
+   	</div>
+</div>

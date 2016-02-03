@@ -1,0 +1,178 @@
+
+  	<div id="header">
+			<h1>MORGANS GROUP HOTEL</h1>
+		<div id="header-menu">
+			<a href="#">Accueil</a>
+			|
+			<a href="#">Contact</a>
+		</div>
+	</div>
+
+
+	<div id="choice">
+		<div id="choice2">
+
+			<h2>ST MARTIN'S LANE</h2>
+
+  			<ul id="nav">
+  				<li><a href="#">L'HOTEL</a></li>
+  				<li><a href="#">LES CHAMBRES</a></li>
+  				<li><a href="#">LE RESTAURANT</a></li>
+  				<li><a href="#">LES TARIFS</a></li>
+  				<li><a href="#">RESERVATION</a></li>
+  				<li><a href="#">GALERIE PHOTOS</a></li>
+  			</ul>
+  		</div>
+  		<%=image_tag "chambre.jpg", :alt => "chambre", :id => "img1" %>
+  	</div>
+
+  	<div id="bloc1">
+  	<div id="desc">
+			<h3>DESCRIPTIF <span class="change-color">de l'hôtel :</span></h3>
+			
+			<%=image_tag "triangle.jpg", :alt =>"triangle", :class =>"img2" %><p class="spitch"><span class="change">L'établissement : </span>la décoration traditionnelle a fait place à l'espace et à la lumière dans cet hôtel étonnament minimaliste. Cadres, couples et familles on passé les immenses portes en verre coloré de cet hôtel pour pénétrer dans le calme organisé de son grand hall. Son décor consiste en un mélange éclectique de classique et rustique, au mobilier minimal. La cuisine moderne domine les menus de ses deux restaurants.</p>
+
+				<%=image_tag "triangle.jpg", :alt =>"triangle", :class =>"img2"%><p class="spitch"><span class="change">Services et équipements : </span>modèle dans l'art de l'éclairage et de l'alliance du style et de la technologie, le St Martins Lane possède des écrans vidéo dans ses ascenseurs et un aquarium virtuel dans son hall.</p>
+
+				<a class="button01" href="#">EN SAVOIR +</a>
+	</div>
+
+
+	<div id="geo">
+
+		<h3>		
+				LOCALISATION <span class="change-color">alentours :</span>
+		</h3>
+
+		<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9932.597605538414!2d-0.12678!3d51.51047500000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMwJzM3LjciTiAwwrAwNyczNi40Ilc!5e0!3m2!1sfr!2s!4v1399210231754" width="255" height="200" frameborder="0" style="border:0"></iframe>
+
+		<a class="button02" href="#">ACCES AU PLAN</a>
+
+	</div>
+	</div>
+
+
+	<div id="bloc2">
+	<div id="welcome">
+		<%= image_tag "bienvenue.jpg", :alt =>"bienvenue", :id =>"img3" %>
+		<h3>BIENVENUE <span class="change-color">dans notre hotel</span></h3>	
+
+				<p id="spitch-color">Vous accéderez 24 heures sur 24 aux infrastructures de fitness de la salle Gymbox de l’hôtel, qui propose en outre des cours originaux, notamment basés sur le programme télé The Gladiators ou encore spécial talons hauts.</p>
+
+				<p class="spitch2">Cet hôtel dispose d'un bureau de change, d'un bar nocturne sophistiqué, d'un restaurant proposant de la cuisine moderne (Asia de Cuba), ainsi que d'un service d'étage 24 heures sur 24 et d'un service d'arrivée et de départ express.</p>
+
+			<span class="button03">
+			EN SAVOIR +
+			</span>
+	</div>
+
+	<div id="bloc3">
+	<div id="offredec">
+			<h3>
+				OFFRES <span class="change-color">découvertes</span>
+			</h3>
+			<hr/>
+				<%= image_tag "offre1.jpg", :alt =>"offre1", :class =>"img4"%>
+				<h4>Chambre DELUXE PATIO</h4>
+				<span class="details">Grand lit. Parure de lit en coton d'Egypte supérieur. Vue panoramique sur Londres</span>
+
+				<span class="plus">
+				EN SAVOIR +
+				</span>
+			<hr/>
+				<%=image_tag "offre2.jpg", :alt => "offre2", :class => "img4"%>
+				<h4>Chambre SINGLE</h4>
+				<span class="details">Grand lit. Parure de lit en coton d'Egypte supérieur. Vue panoramique sur Londres</span>
+
+				<a class="plus" href="#">
+				EN SAVOIR +
+				</a>
+			<hr/>
+
+			<span id="button04">
+			+ D'OFFRES
+			</span>
+
+	</div>
+
+
+	<div id="offrespe">
+			<h3>
+				OFFRES <span id="change-color2">spéciales</span>
+			</h3>
+
+			<table>
+			<tr> <a href="#">
+				<td class="offre">SINGLE</td>
+				<td class="nuit">3 nuits</td>
+				<td class="prix">545€</td>
+			</tr>
+			<tr><a href="#">
+				<td class="offre">STANDARD</td>
+				<td class="nuit">3 nuits</td>
+				<td class="prix">545€</td>
+			</tr>
+			<tr><a href="#">
+				<td class="offre">STANDARD QUEEN</td>
+				<td class="nuit">3 nuits</td>
+				<td class="prix">545€</td>
+			</tr>
+			<tr><a href="#">
+				<td class="offre">DELUXE</td>
+				<td class="nuit">3 nuits</td>
+				<td class="prix">545€</td>
+			</tr>
+			<tr><a href="#">
+				<td class="offre">DELUXE PATIO</td>
+				<td class="nuit">3 nuits</td>
+				<td class="prix">545€</td>
+			</tr>
+			<tr><a href="#">
+				<td class="offre">PENTHOUSE</td>
+				<td class="nuit">3 nuits</td>
+				<td class="prix">545€</td>
+			</tr>
+			<tr><a href="#">
+				<td class="offre">APPARTEMENT</td>
+				<td class="nuit">3 nuits</td>
+				<td class="prix">545€</td>
+			</tr>
+			<tr><a href="#">
+				<td class="offre">SUITE</td>
+				<td class="nuit">3 nuits</td>
+				<td class="prix">545€</td>
+			</tr>
+			<tr><a href="#">
+				<td class="offre">LOFT</td>
+				<td class="nuit">3 nuits</td>
+				<td class="prix">545€</td>
+			</tr>
+			<tr>
+				<td class="offre">LOFT DELUXE</td>
+				<td class="nuit">3 nuits</td>
+				<td class="prix">545€</td>
+			</tr>
+			</table>
+	</div>
+	</div>
+	</div>
+
+
+	<div id="footer">
+				<a href="#">L'HOTEL </a>
+				|
+  				<a href="#"> LES CHAMBRES </a>
+  				|
+  				<a href="#"> LE RESTAURANT </a>
+  				|
+  				<a href="#"> LES TARIFS </a>
+  				|
+  				<a href="#"> RESERVATION </a>
+  				|
+  				<a href="#"> GALERIE PHOTOS </a>
+  				|
+  				<span> © copyright maquette non contractuelle <a href="esancey@4-quarts.com">esancey@4-quarts.com</a></span>
+
+	</div>
+
+  	

@@ -1,0 +1,20 @@
+    <div id="container">
+      <h1></h1>
+      <div id="back">
+      <div id="geolocation_map"></div>
+      <div id="destinationForm">
+        <form action="" method="get" name="direction" id="direction">
+          <label>Départ :</label><br />
+          <input type="text" name="origin" id="origin"><br />
+          <label>Arrivée :</label><br />
+          <input type="text" name="destination" id="destination"><br />
+          <input type="button" value="GO" onclick="javascript:calculate()">
+        </form>
+        </div>
+      </div>
+      <button onclick="javascript:enterFullscreen(full_screen_part);">Plein écran</button>
+      <div id="full_screen_part" name="full_screen_part"></div>
+      <div id="panel"></div>
+    </div>
+    
+
